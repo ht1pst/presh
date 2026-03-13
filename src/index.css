@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Porlane";
+  src: url("/src/assets/fonts/porlane.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane2";
+  src: url("/src/assets/fonts/porlane2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane3";
+  src: url("/src/assets/fonts/porlane3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane4";
+  src: url("/src/assets/fonts/porlane4.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.name, .available, .menu{
+   font-family: "Porlane2", sans-serif;
+}
+
+.heading-hero, .header-box{
+  font-family: "Porlane", sans-serif;
+}
+
+.heading-p{
+  font-family: "Porlane2", sans-serif;
+}
+.proj-title{
+    font-family: "Porlane4", sans-serif;
+}
+
+.proj-tools{
+    font-family: "Porlane3", sans-serif;
+}
+
+.proj-det{
+    font-family: "Porlane3", sans-serif;
+}
+.tools{
+  font-family: "Porlane3", sans-serif;
+}
+.tools-des{
+  font-family: "Porlane2", sans-serif;
+}
+
+
