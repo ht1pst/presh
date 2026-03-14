@@ -23,7 +23,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 <div className="" >
   <div className="">
     <a href="#" className="flex items-start lg:text-[1.5rem] text-[1.1rem] text-white name">
-      Ajide Victor <span className="text-[0.5rem]">TM</span>
+    Udeh Precious <span className="text-[0.5rem]">TM</span>
     </a>
   </div>
   </div>

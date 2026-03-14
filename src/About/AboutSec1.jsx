@@ -89,7 +89,7 @@ function AboutSec1(){
    </header>
 
 <div className="lg:px-[95px] px-[20px] max-w-390 mx-auto pt-10">
-    <h1 className="heading-hero text-white text-[5rem] uppercase" >Hey! I’m Ajide Victor</h1>
+    <h1 className="heading-hero text-white text-[5rem] uppercase" >Hey! I’m Udeh Precious</h1>
 
     <p className="tools-des text-[1rem] text-white max-w-[60rem]">I’m a Webflow Partner building high-performance websites for B2B companies. I help businesses turn complex ideas into clean, responsive, and conversion-focused Webflow sites that scale.</p>
 
