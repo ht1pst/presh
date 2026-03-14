@@ -7,7 +7,7 @@ function Section3(){
         <section className="bg-[#292929] lg:px-[85px] px-[20px] h-auto pb-10 ">
             <div className="flex lg:flex-row flex-col justify-between  max-w-350 mx-auto">
             <div>
-                <h1 className="heading-hero lg:text-[5rem] text-[4rem] text-white uppercase pt-30">what i do</h1>
+                <h1 className="heading-hero lg:text-[5rem] text-[4rem] text-white uppercase lg:pt-30">what i do</h1>
             </div>
 
             <div className="flex flex-col gap-5">
