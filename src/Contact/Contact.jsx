@@ -16,16 +16,24 @@ function Contact(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
        <section className="bg-[#292929]">
+    <div className="lg:hidden block mx-auto  w-70 pt-3 ">
+    <a href="#" className="flex items-center h-8 rounded-lg justify-center  text-[0.6rem] bg-[#353535] text-white available">
+     
+      Available to take on new Webflow projects! Let’s talk
+    </a>
+  </div>
+       <header className="flex  justify-between lg:px-[95px] px-[20px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
 
-  <header className="flex justify-between px-[95px] items-center h-20 relative max-w-380 mx-auto">
 
+<div className="" >
   <div className="">
-    <a href="#" className="flex items-start text-[1.5rem] text-white name">
+    <a href="#" className="flex items-start lg:text-[1.5rem] text-[1.1rem] text-white name">
       Ajide Victor <span className="text-[0.5rem]">TM</span>
     </a>
   </div>
+  </div>
 
-  <div className="w-105">
+  <div className="w-105 lg:block hidden">
     <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
       <span>
         <img src={but} alt="" className="w-[21px]" />
@@ -49,13 +57,13 @@ function Contact(){
 
 
  <div
-  className={`absolute top-20 left-1/2 -translate-x-1/2 mt-4 w-full h-screen   bg-[#292929] rounded-xl  flex flex-col gap-4 p-5 text-white z-50
+  className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
   transition-all duration-300 ease-in-out
   ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
 `}
 >
 
-  <div className="heading-hero h-auto pb-5 leading-[160px] absolute rounded-2xl left-1/2 -translate-x-1/2 text-[7.5rem] bg-[#353535] text-white w-[80%] px-[30px] ">
+  <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
     <div> <Link to="/">HOME</Link></div>
 
    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
@@ -81,26 +89,29 @@ function Contact(){
 </div>
 </header>
 
- <div className="px-[90px] pt-15">
-<h2 className="heading-hero text-white text-[7rem] flex justify-center uppercase " >Get in touch</h2>
-<p className="tools-des text-[1rem] text-white flex justify-center max-w-[35rem] text-center mx-auto   font-500 relative  ">I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to book a call or email me if you'd like to see my portfolio deck or to discuss a potential project.</p>
+
+ <div className="lg:px-[90px]  px-[20px] lg:pt-15">
+<h2 className="heading-hero text-white lg:text-[7rem] text-[6rem] flex lg:justify-center uppercase " >Get in touch</h2>
+<p className="tools-des text-[1rem] text-white flex justify-center max-w-[35rem] lg:text-center mx-auto   font-500 relative  ">I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to book a call or email me if you'd like to see my portfolio deck or to discuss a potential project.</p>
 
 
 <div className="mt-5">
-    <div className="flex gap-4 justify-center">
-        <input type="text" name="" id="" placeholder="Full Name" className="border-zinc-200  border h-13 w-70 px-3 rounded-xl bg-[#f2f2f2]" />
-        <input type="text" placeholder="Email Address" className="border-zinc-200  border h-13 w-70 px-3 rounded-xl bg-[#f2f2f2]" />
+    <div className="flex flex-col lg:flex-row gap-4 justify-center">
+        <input type="text" name="" id="" placeholder="Full Name" className="border-zinc-200  border h-13 lg:w-70 px-3 rounded-xl bg-[#f2f2f2]" />
+        <input type="text" placeholder="Email Address" className="border-zinc-200  border h-13 lg:w-70 px-3 rounded-xl bg-[#f2f2f2]" />
     </div>
+
+    
 
 
 <div className="flex gap-4 justify-center">
-    <textarea name="" id="" placeholder="Write your Message" className="border-zinc-200  border w-144 p-4 h-40 rounded-xl bg-[#f2f2f2] mt-4"></textarea>
+    <textarea name="" id="" placeholder="Write your Message" className="border-zinc-200  border lg:w-144 w-full p-4 h-40 rounded-xl bg-[#f2f2f2] mt-4"></textarea>
     </div>
 </div>
 
 
 <div
-  className="relative h-[50px] rounded-full w-144 rounded-xl overflow-hidden  mx-auto mt-5 bg-black"
+  className="relative h-[50px] rounded-full lg:w-144 rounded-xl overflow-hidden  mx-auto mt-5 bg-black"
   id="home"
   style={{
     backgroundImage: `url(${bg})`,
@@ -125,134 +136,138 @@ function Contact(){
              </div>
 
 
-   <section className=" px-[85px] bg-[#292929] auto pb-10 pt-10">
-       
-        
-        <div className="max-w-350 mx-0 2xl:mx-auto">
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-9">
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person1} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">David Bradley</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">Chief Technologist SubRx</p>
-            </div>
-        </div>
-        
-        <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[23px] mt-18 ">“It was our first time taking a B2B website from Figma to Webflow, and Victor nailed our project. His communication was clear and consistent throughout the entire process, and the final result exceeded expectations.”</p>
-        </div>
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person2} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">Nicolas Villa</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">Founder & CEO at Stayvera Inc.</p>
-            </div>
-        </div>
-        
-        <div className="border border-1 mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[26px] mt-15 ">"I had an excellent experience working with Victor for the Stayvera website! The communication was outstanding, he always kept me informed every step of the way. The final result was beyond my expectations.</p>
-        </div>
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person3} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">Tai Owoka</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">Founder ZenMomTribe.</p>
-            </div>
-        </div>
-        
-        <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[26px] mt-10 ">Working with Victor has been such a seamless experience. He revamped my blog page on Webflow beautifully, handled all the updates with care, and even took the time to train my team so we could manage things confidently on our own.</p>
-        </div>
-        
-        </div>
-        
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-9">
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person4} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">Josh Kaplan</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">Smooth Media CEO</p>
-            </div>
-        </div>
-        
-        <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[23px] mt-10 ">Ajide Victor did a great job. He was communicative and able to make all the webflow edits necessary in a timely fashion. If you’re looking for a Webflow developer who is talented, reliable, and a pleasure to work with, Victor is your guy.</p>
-        </div>
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person5} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">Shelley Kemmerer</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">RTM Founder</p>
-            </div>
-        </div>
-        
-        <div className="border border-1 mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[26px] mt-10 ">Ajide Victor was very eager to support the requests and delivered the in short time. What truly impressed me was his attention to every detail and his willingness to keep working until even the smallest imperfection was resolved. I was very pleased and will hire.</p>
-        </div>
-        
-        <div className="bg-[#353535] px-[20px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
-        <div className="flex items-center gap-3">
-            <div>
-                <img src={person6} alt="" className="rounded-full w-15" />
-            </div>
-            <div>
-                <h1 className="text-[1.25rem] tools-des text-white font-bold">Daniel Delgado</h1>
-                <p className="text-[0.875rem] text-[#ececec99] tools-des">TradeSpace Founder</p>
-            </div>
-        </div>
-        
-        <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
-        
-        <p className="text-white text-[1.125rem] tools-des leading-[26px] mt-10 ">"Working with Ajide on this project was an extremely positive experience. From the start, he demonstrated great technical expertise and a clear understanding of how to implement Memberstack into our Webflow platform.</p>
-        </div>
-        
-        </div>
-        </div>
-        
-                </section>
-  
-  
-     <section className="px-[85px] bg-[#292929] h-auto pb-10 pt-15">
+   <section className=" lg:px-[85px] px-[20px]  bg-[#292929] auto pb-10 pt-10">
+     
+      <div className="max-w-350 mx-0 2xl:mx-auto">
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-9">
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person1} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">David Bradley</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">Chief Technologist SubRx</p>
+          </div>
+      </div>
+      
+      <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des leading-[23px] lg:mt-15 mt-5 ">“It was our first time taking a B2B website from Figma to Webflow, and Victor nailed our project. His communication was clear and consistent throughout the entire process, and the final result exceeded expectations.”</p>
+      </div>
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person2} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">Nicolas Villa</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">Founder & CEO at Stayvera Inc.</p>
+          </div>
+      </div>
+      
+      <div className="border border-1 mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-15 mt-5 ">"I had an excellent experience working with Victor for the Stayvera website! The communication was outstanding, he always kept me informed every step of the way. The final result was beyond my expectations.</p>
+      </div>
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person3} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">Tai Owoka</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">Founder ZenMomTribe.</p>
+          </div>
+      </div>
+      
+      <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-10 mt-5 ">Working with Victor has been such a seamless experience. He revamped my blog page on Webflow beautifully, handled all the updates with care, and even took the time to train my team so we could manage things confidently on our own.</p>
+      </div>
+      
+      </div>
+      
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-9">
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person4} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">Josh Kaplan</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">Smooth Media CEO</p>
+          </div>
+      </div>
+      
+      <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des leading-[23px] lg:mt-10 mt-5 ">Ajide Victor did a great job. He was communicative and able to make all the webflow edits necessary in a timely fashion. If you’re looking for a Webflow developer who is talented, reliable, and a pleasure to work with, Victor is your guy.</p>
+      </div>
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person5} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">Shelley Kemmerer</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">RTM Founder</p>
+          </div>
+      </div>
+      
+      <div className="border border-1 mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-10 mt-5 ">Ajide Victor was very eager to support the requests and delivered the in short time. What truly impressed me was his attention to every detail and his willingness to keep working until even the smallest imperfection was resolved. I was very pleased and will hire.</p>
+      </div>
+      
+      <div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl">
+      <div className="flex items-center gap-3">
+          <div>
+              <img src={person6} alt="" className="rounded-full w-15" />
+          </div>
+          <div>
+              <h1 className="text-[1.25rem] tools-des text-white font-bold">Daniel Delgado</h1>
+              <p className="text-[0.875rem] text-[#ececec99] tools-des">TradeSpace Founder</p>
+          </div>
+      </div>
+      
+      <div className="border mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
+      
+      <p className="text-white lg:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-10 mt-5 ">"Working with Ajide on this project was an extremely positive experience. From the start, he demonstrated great technical expertise and a clear understanding of how to implement Memberstack into our Webflow platform.</p>
+      </div>
+      
+      </div>
+      </div>
+      
+              </section>
+      
+    <section className="lg:px-[85px] px-[20px] bg-[#292929] h-auto pb-10 pt-5">
               <div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto">
   
-  <div className="absolute left-0 bottom-0"><img src={left} alt="" className="w-117 h-auto object-cover" /></div>
-  <div className="absolute right-0 bottom-0"><img src={right} alt="" className="w-115 h-auto object-cover" /></div>
+  <div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-117 w-90 h-auto object-cover" /></div>
+  <div className="absolute lg:right-0  bottom-0 hidden lg:block"><img src={right} alt="" className="lg:w-115 w-18 h-auto object-cover" /></div>
   
-             <div className="flex justify-between items-center relative">
+             <div className="flex flex-col lg:flex-row  justify-between items-center relative">
               <h1 className="tools-des text-[1.5rem]">Ajide Victor</h1>
               <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
               </div> 
   
-              <div className="leading-[200px] mt-10 relative">
-                  <h1 className="heading-hero text-[13.625rem] uppercase text-center">ready to level up </h1>
-                  <h1 className="heading-hero text-[13.625rem] uppercase text-center">your website?</h1>
+              <div className="leading-[200px] mt-10 relative hidden lg:block">
+                  <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">ready to level up </h1>
+                  <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">your website?</h1>
+              </div>
+  
+              <div className="leading-[100px] lg:hidden block pt-6">
+                 <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">ready to level</h1> 
+                 <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"> up your </h1>
+                 <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">website </h1>
               </div>
   
               <div className="flex justify-center">
@@ -261,42 +276,41 @@ function Contact(){
                   </a>
                   </div>
   
-                  <div className="tools-des relative flex justify-between mt-25">
-                      <div>
-                          <p className="text-[1rem]">Development by: Ajide Victor</p>
+                  <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 mt-7">
+                      <div className="flex justify-center">
+                          <p className="lg:text-[1rem] text-[0.8rem] text-gray-500">Development by: Ajide Victor</p>
                       </div>
   
-                      <div className="flex gap-3 items-center">
+                      <div className="flex gap-3 items-center justify-center">
   
                             <div>
                       <a href="#">
-                      <button className="flex border px-4  h-7 justify-center rounded-full items-center gap-2 text-[1rem]">X(TWITTER)</button>
+                      <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] text-[0.7rem]">X(TWITTER)</button>
                   </a>
                   </div>
   
                       <div>
                       <a href="#">
-                      <button className="flex border px-4  h-7 justify-center rounded-full items-center gap-2 text-[1rem]">LINKEDIN</button>
+                      <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] text-[0.7rem]">LINKEDIN</button>
                   </a>
                   </div>
   
                       <div>
                       <a href="#">
-                      <button className="flex border px-4  h-7 justify-center rounded-full items-center gap-2 text-[1rem]">INSTAGRAM</button>
+                      <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] text-[0.7rem]">INSTAGRAM</button>
                   </a>
                   </div>
   
                   </div>
                        
-          <div>
-              <p>©2025 - All Rights Reserved</p>
+          <div className="flex justify-center">
+              <p className="lg:text-[1rem] text-[0.8rem] text-gray-500 ">©2025 - All Rights Reserved</p>
           </div>
                        
                   </div>
   </div>
   
           </section>
-
        </section>
     )
 }
