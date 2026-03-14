@@ -16,7 +16,7 @@ function Section2(){
  
 
     return(
-       <section className="bg-[#292929] h-auto pb-10 lg:px-[90px] px-[20px] pt-10">
+       <section className="bg-[#292929] h-auto pb-10 lg:px-[90px] px-[20px] md:px-[30px] pt-10">
         <div className="flex items-center justify-between mx-auto max-w-350">
             <h1 className="lg:text-[5rem] text-[4rem] heading-hero text-white uppercase">Completed Projects</h1>
 

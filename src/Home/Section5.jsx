@@ -35,11 +35,11 @@ function Section5() {
   ];
 
   return (
-    <section className="bg-[#292929] lg:px-[85px] px-[20px] h-auto pb-10">
+    <section className="bg-[#292929] lg:px-[85px] px-[20px] md:px-[30px] h-auto pb-10">
 
       {/* Header */}
       <div className="flex items-center justify-between max-w-[1400px] mx-auto">
-        <h1 className="lg:text-[5rem] text-[4rem] heading-hero text-white uppercase">
+        <h1 className="lg:text-[5rem] md:text-[5rem] text-[4rem] heading-hero text-white uppercase">
           YOUR QUESTIONS, ANSWERED
         </h1>
 

@@ -11,18 +11,18 @@ const [menuOpen, setMenuOpen] = useState(false);
 
     return(
         <section className=" bg-[#292929] h-auto pb-10">
-             <div className="lg:hidden block mx-auto  w-70 pt-3 ">
-    <a href="#" className="flex items-center h-8 rounded-lg justify-center  text-[0.6rem] bg-[#353535] text-white available">
+             <div className="lg:hidden block mx-auto  w-70 md:w-130 pt-3 ">
+    <a href="#" className="flex items-center h-8 md:h-10 rounded-lg justify-center  text-[0.6rem] md:text-[1rem] bg-[#353535] text-white available">
      
       Available to take on new Webflow projects! Let’s talk
     </a>
   </div>
-       <header className="flex  justify-between lg:px-[95px] px-[20px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
+       <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
 
 
 <div className="" >
   <div className="">
-    <a href="#" className="flex items-start lg:text-[1.5rem] text-[1.1rem] text-white name">
+    <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
     Udeh Precious <span className="text-[0.5rem]">TM</span>
     </a>
   </div>
@@ -83,37 +83,37 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 </div>
 </header>
-  <div className="flex flex-col lg:flex-row justify-center lg:gap-15 gap-5 lg:pt-10 pt-7  mx-auto px-[20px]">
+  <div className="flex flex-col lg:flex-row justify-center lg:gap-15 gap-5 lg:pt-10 pt-7  mx-auto px-[20px] md:px-[30px]">
 
 
-<div className=" leading-[55px] block lg:hidden">
- <h1 className=" heading-hero lg:text-[11rem]  text-[4.5rem]  text-white uppercase">Your Webflow Design &</h1>
-<h1 className=" heading-hero lg:text-[11rem]  text-[4.5rem]   text-white mt-3 uppercase">Development Partner</h1>
+<div className=" leading-[55px] md:leading-[140px] block lg:hidden">
+ <h1 className=" heading-hero lg:text-[11rem] md:text-[11rem]  text-[4.5rem]   text-white uppercase">Your Webflow Design &</h1>
+<h1 className=" heading-hero lg:text-[11rem] md:text-[11rem]  text-[4.5rem]   text-white mt-3 uppercase">Development Partner</h1>
 </div>
                 <div>
-                    <img src={img} alt="" className="w-150 h-100 lg:h-168 rounded-xl object-cover"   />
+                    <img src={img} alt="" className="lg:w-150 w-full  h-100 md:h-200 lg:h-168 rounded-xl object-cover"   />
                 </div>
 
                 <div className="">
                     <h1 className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem] lg:block hidden text-white uppercase">Your Webflow Design &</h1>
 <h1 className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem]  lg:block hidden text-white mt-3 uppercase">Development Partner</h1>
                     <div className="bg-white lg:w-170 h-auto pb-5 rounded-2xl  p-[15px] mt-5">
-                        <p className="lg:text-[1.25rem] text-[1.1rem] leading-[18px]  heading-p">A trusted B2B Webflow partner for professional services firms and SaaS companies ready to turn their websites into revenue-driving assets. Trusted by Reanest, Stayvera, Bech32, and Xio to deliver strategic B2B Websites.</p>
+                        <p className="lg:text-[1.25rem] text-[1.1rem] md:text-[1.25rem] leading-[18px] md:leading-[25px]  heading-p">A trusted B2B Webflow partner for professional services firms and SaaS companies ready to turn their websites into revenue-driving assets. Trusted by Reanest, Stayvera, Bech32, and Xio to deliver strategic B2B Websites.</p>
 
-                        <img src={img2} alt="" className="w-100" />
+                        <img src={img2} alt="" className="w-100 md:w-full md:h-50" />
 
-<div className="flex flex-col lg:flex-row gap-5">
+<div className="flex flex-col lg:flex-row md:flex-row md:justify-center gap-5">
 
     <div>
         <a href="#">
-        <button className="flex border lg:w-53 w-full justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] text-[0.9rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
+        <button className="flex border lg:w-53 w-full md:px-3 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] md:text-[1.1rem] text-[0.9rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
     </a>
     </div>
 
 
     <div>
         <a href="#">
-        <button className="flex border lg:w-58  w-full justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] text-[0.9rem]">What Our Clients Say <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={arrow} alt="call icon" className="w-[15px]" /></span></button>
+        <button className="flex border lg:w-58 md:px-3  w-full justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] md:text-[1.1rem] text-[0.9rem]">What Our Clients Say <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={arrow} alt="call icon" className="w-[15px]" /></span></button>
     </a>
     </div>
 </div>
