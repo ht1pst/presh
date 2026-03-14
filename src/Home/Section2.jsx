@@ -27,7 +27,9 @@ function Section2(){
         </div>
 
         <div className="mt-7 flex flex-col gap-8">
-            <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+
+           <a href="http://goatfundedtrader.com/">
+             <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Goat Funded</h1>
@@ -50,8 +52,11 @@ function Section2(){
                 </div>
 
             </div>
+           </a>
 
 
+<a href="https://goatfundedfutures.com/
+">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Goat Funded Futures</h1>
@@ -74,9 +79,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
-
-
+<a href="https://www.aquafunded.com/
+">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -100,9 +106,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
-
+<a href="https://fundedhero.com/">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -126,9 +133,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
-
+<a href="http://kudofunded.com/">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -152,8 +160,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
+<a href="https://quantumxfutures.com/home/">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -178,8 +188,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
+<a href="https://atsfunded.com/home">
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -203,12 +215,12 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
 
 
-
-
+<a href="https://www.phunk.co.uk/">
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -232,9 +244,9 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
-
-
+<a href="http://tradetechsolutions.io/">
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -258,9 +270,10 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
 
-
+<a href="http://lumio-branding.webflow.io/">
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -284,9 +297,9 @@ function Section2(){
                 </div>
 
             </div>
+</a>
 
-
-
+<a href="https://wagerfunding.com/">
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
@@ -310,7 +323,7 @@ function Section2(){
                 </div>
 
             </div>
-
+</a>
 
 
               
