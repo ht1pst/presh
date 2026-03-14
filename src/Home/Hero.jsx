@@ -91,7 +91,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 <h1 className=" heading-hero lg:text-[11rem]  text-[4.5rem]   text-white mt-3 uppercase">Development Partner</h1>
 </div>
                 <div>
-                    <img src={img} alt="" className="w-150 h-100 rounded-xl object-cover"   />
+                    <img src={img} alt="" className="w-150 h-100 lg:h-168 rounded-xl object-cover"   />
                 </div>
 
                 <div className="">

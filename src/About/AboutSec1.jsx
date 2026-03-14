@@ -101,9 +101,9 @@ function AboutSec1(){
 
 </div>
 
-   <section className=" lg:px-[85px] px-[20px]  bg-[#292929] auto pb-10 pt-10">
+   <section className=" lg:px-[85px] px-[20px]  bg-[#292929] auto pb-10 pt-10 lg:pt-20">
     <div className="max-w-350 mx-auto" >
-        <h1 className="uppercase text-white heading-hero lg:text-[5rem] text-[4rem] lg:leading-0 leading-[80px] ">I've helped 20+ companies design, ship, and raise.</h1>
+        <h1 className="uppercase text-white heading-hero lg:text-[5rem] text-[4rem] lg:leading-[45px] leading-[80px] ">I've helped 20+ companies design, ship, and raise.</h1>
         <p className="text-[1.25rem] text-white tools-des mt-4">Hear it from founders who've raised, and shipped with us.</p>
     </div>
     
