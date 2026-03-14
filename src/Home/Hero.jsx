@@ -6,6 +6,8 @@ import call from "../assets/call.webp";
 import arrow from "../assets/arrow.webp";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SplitText from "../SplitText";
+import { motion } from "framer-motion";
 function Hero(){
 const [menuOpen, setMenuOpen] = useState(false);
 
@@ -23,7 +25,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 <div className="" >
   <div className="">
     <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
-    Udeh Precious <span className="text-[0.5rem]">TM</span>
+    Precious Triumph<span className="text-[0.5rem]">TM</span>
     </a>
   </div>
   </div>
@@ -83,20 +85,65 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 </div>
 </header>
-  <div className="flex flex-col lg:flex-row justify-center lg:gap-15 gap-5 lg:pt-10 pt-7  mx-auto px-[20px] md:px-[30px]">
+  <motion.div className="flex flex-col lg:flex-row justify-center lg:gap-15 gap-5 lg:pt-10 pt-7  mx-auto px-[20px] md:px-[30px]"
+   initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+  >
 
 
 <div className=" leading-[55px] md:leading-[140px] block lg:hidden">
- <h1 className=" heading-hero lg:text-[11rem] md:text-[11rem]  text-[4.5rem]   text-white uppercase">Your Webflow Design &</h1>
-<h1 className=" heading-hero lg:text-[11rem] md:text-[11rem]  text-[4.5rem]   text-white mt-3 uppercase">Development Partner</h1>
+
+ <SplitText
+  text="Your Webflow Design &"
+  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+<SplitText
+  text="Development Partner"
+  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase"
+  delay={100}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+
 </div>
                 <div>
-                    <img src={img} alt="" className="lg:w-150 w-full  h-100 md:h-200 lg:h-168 rounded-xl object-cover"   />
+                    <img src={img} alt="" className="lg:w-150 w-full  h-100 md:h-200 lg:h-180 rounded-xl object-cover"   />
                 </div>
 
                 <div className="">
-                    <h1 className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem] lg:block hidden text-white uppercase">Your Webflow Design &</h1>
-<h1 className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem]  lg:block hidden text-white mt-3 uppercase">Development Partner</h1>
+
+ <SplitText
+  text="Your Webflow Design &"
+  className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem] lg:block hidden text-white uppercase"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+<SplitText
+  text="Development Partner"
+  className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem]  lg:block hidden text-white mt-3 uppercase"
+  delay={100}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+                    
                     <div className="bg-white lg:w-170 h-auto pb-5 rounded-2xl  p-[15px] mt-5">
                         <p className="lg:text-[1.25rem] text-[1.1rem] md:text-[1.25rem] leading-[18px] md:leading-[25px]  heading-p">A trusted B2B Webflow partner for professional services firms and SaaS companies ready to turn their websites into revenue-driving assets. Trusted by Reanest, Stayvera, Bech32, and Xio to deliver strategic B2B Websites.</p>
 
@@ -106,7 +153,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
     <div>
         <a href="#">
-        <button className="flex border lg:w-53 w-full md:px-3 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] md:text-[1.1rem] text-[0.9rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
+        <button className="flex border lg:w-55 w-full md:px-3 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] md:text-[1.1rem] text-[0.9rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
     </a>
     </div>
 
@@ -122,7 +169,7 @@ const [menuOpen, setMenuOpen] = useState(false);
                 </div>
 
 
-            </div>
+            </motion.div>
 
         </section>
     )

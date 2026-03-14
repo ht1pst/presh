@@ -2,15 +2,32 @@ import framer from "../assets/framer.png";
 import figma from "../assets/figma.png";
 import webflow from "../assets/webflow.avif";
 import support from "../assets/support.avif";
+import SplitText from "../SplitText";
+import { motion } from "framer-motion";
 function Section3(){
     return(
         <section className="bg-[#292929] lg:px-[85px] px-[20px] md:px-[30px] h-auto pb-10 ">
             <div className="flex lg:flex-row flex-col justify-between  max-w-350 mx-auto">
             <div>
-                <h1 className="heading-hero lg:text-[5rem] text-[4rem] text-white uppercase lg:pt-30">what i do</h1>
+
+ <SplitText
+  text="what i do"
+  className="heading-hero lg:text-[5rem] text-[4rem] text-white uppercase lg:pt-30"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
             </div>
 
-            <div className="flex flex-col gap-5">
+            <motion.div className="flex flex-col gap-5"
+              initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            >
 
 
                 <div className="p-[15px] lg:w-170 bg-[#353535] rounded-xl text-white  justify-center    lg:sticky lg:top-0   lg:pt-20">
@@ -50,7 +67,7 @@ Website Development (WEBFLOW)</h1>
                 </div>
 
 
-            </div>
+            </motion.div>
 
             </div>
         </section>

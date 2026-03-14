@@ -10,7 +10,8 @@ import proj9 from "../assets/project1 (9).png";
 import proj10 from "../assets/project1 (10).png";
 import proj11 from "../assets/project1 (11).png";
 import arrow2 from "../assets/arrow2.png";
-
+import SplitText from "../SplitText";
+import { motion } from "framer-motion";
 function Section2(){
 
  
@@ -18,7 +19,18 @@ function Section2(){
     return(
        <section className="bg-[#292929] h-auto pb-10 lg:px-[90px] px-[20px] md:px-[30px] pt-10">
         <div className="flex items-center justify-between mx-auto max-w-350">
-            <h1 className="lg:text-[5rem] text-[4rem] heading-hero text-white uppercase">Completed Projects</h1>
+
+<SplitText
+  text="Completed Projects"
+ className="lg:text-[5rem] text-[4rem] heading-hero text-white uppercase"
+  delay={100}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+          
 
 
  <a href="#" className="hidden lg:block">
@@ -29,7 +41,12 @@ function Section2(){
         <div className="mt-7 flex flex-col gap-8">
 
            <a href="http://goatfundedtrader.com/">
-             <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+             <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+             initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+             >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Goat Funded</h1>
@@ -51,13 +68,18 @@ function Section2(){
                     <img src={proj1} alt="" className=" rounded-xl lg:w-220 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
            </a>
 
 
 <a href="https://goatfundedfutures.com/
 ">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Goat Funded Futures</h1>
 
@@ -78,12 +100,17 @@ function Section2(){
                     <img src={proj2} alt="" className="rounded-xl lg:w-290 lg:h-70 rounded-xl" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://www.aquafunded.com/
 ">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Aqua Funded</h1>
@@ -106,12 +133,17 @@ function Section2(){
                     <img src={proj3} alt="" className="rounded-xl lg:w-190 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 <a href="https://fundedhero.com/">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Funded Hero</h1>
@@ -133,12 +165,17 @@ function Section2(){
                 <img src={proj4} alt="" className="rounded-xl lg:w-240 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 <a href="http://kudofunded.com/">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Kudo Fuded</h1>
@@ -160,12 +197,17 @@ function Section2(){
                     <img src={proj5} alt="" className="rounded-xl lg:w-270 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 <a href="https://quantumxfutures.com/home/">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Quantum Futures</h1>
@@ -188,12 +230,17 @@ function Section2(){
                     <img src={proj6} alt="" className="rounded-xl lg:w-150 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 <a href="https://atsfunded.com/home">
-               <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+               >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Ats Funded</h1>
@@ -215,14 +262,19 @@ function Section2(){
                     <img src={proj7} alt="" className="rounded-xl lg:w-290 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 
 
 <a href="https://www.phunk.co.uk/">
-                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+                <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+                initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Phunk</h1>
@@ -245,11 +297,16 @@ function Section2(){
                     <img src={proj8} alt="" className="rounded-xl lg:w-290 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="http://tradetechsolutions.io/">
-                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+                <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+                initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Trade Tech Solutions</h1>
@@ -272,12 +329,17 @@ function Section2(){
                     <img src={proj9} alt="" className="rounded-xl lg:w-290 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
 <a href="http://lumio-branding.webflow.io/">
-                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+                <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+                initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Lumio - Branding</h1>
@@ -300,11 +362,16 @@ function Section2(){
                     <img src={proj10} alt="" className="rounded-xl lg:w-290 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://wagerfunding.com/">
-                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+                <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+                initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                >
 
                 <div className="">
 <h1 className="text-[1.75rem] proj-title text-white">Wager Funding</h1>
@@ -326,7 +393,7 @@ function Section2(){
                     <img src={proj11} alt="" className="rounded-xl lg:w-290 lg:h-70" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 
