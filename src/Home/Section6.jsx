@@ -1,10 +1,17 @@
 import call from "../assets/call.webp";
 import right from "../assets/right.avif";
 import left from "../assets/left.avif";
+import SplitText from "../SplitText";
+import { motion } from "framer-motion";
 function Section6(){
     return(
         <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
-            <div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto">
+            <motion.div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto"
+             initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            >
 
 <div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-117 w-90  h-auto object-cover" /></div>
 <div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
@@ -20,9 +27,42 @@ function Section6(){
             </div>
 
             <div className="leading-[100px] lg:hidden block pt-6 z-20 relative md:hidden">
-               <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">ready to level</h1> 
-               <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"> up your </h1>
-               <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center">website </h1>
+
+<SplitText
+  text="ready to level"
+  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+
+
+<SplitText
+  text="up your"
+ className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
+  delay={100}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+
+
+<SplitText
+  text="website"
+ className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
+  delay={140}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
+
+
             </div>
 
             <div className="flex justify-center md:mt-10">
@@ -63,7 +103,7 @@ function Section6(){
         </div>
                      
                 </div>
-</div>
+</motion.div>
 
         </section>
     )

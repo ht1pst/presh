@@ -1,6 +1,7 @@
 import arrow2 from "../assets/arrow2.png";
 import { useState } from "react";
-
+import SplitText from "../SplitText";
+import { motion } from "framer-motion";
 function Section5() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -39,9 +40,16 @@ function Section5() {
 
       {/* Header */}
       <div className="flex items-center justify-between max-w-[1400px] mx-auto">
-        <h1 className="lg:text-[5rem] md:text-[5rem] text-[4rem] heading-hero text-white uppercase">
-          YOUR QUESTIONS, ANSWERED
-        </h1>
+
+ <SplitText
+  text="YOUR QUESTIONS, ANSWERED"
+  className="lg:text-[5rem] md:text-[5rem] text-[4rem] heading-hero text-white uppercase"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
 
         <a href="#" className="hidden lg:block">
           <button className="flex border w-[230px] justify-center rounded-full h-[52px] items-center gap-2 text-[1.1rem] text-white">
@@ -54,7 +62,12 @@ function Section5() {
       </div>
 
       {/* FAQ Section */}
-      <div className="lg:pt-10  max-w-[1000px] mx-auto">
+      <motion.div className="lg:pt-10  max-w-[1000px] mx-auto"
+        initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+      >
 
         
 
@@ -95,7 +108,7 @@ function Section5() {
           })}
 
         </div>
-      </div>
+      </motion.div>
   <a href="#" className="lg:hidden block mt-5">
           <button className="flex border mx-auto w-[230px] justify-center rounded-full h-[52px] items-center gap-2 text-[1.1rem] text-white">
             Book a strategy call
