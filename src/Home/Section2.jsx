@@ -42,7 +42,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">An AI‑powered trading platform. Designed in Figma, I developed the site in Webflow with smooth animations and structure to match the product’s innovation.</p>
 
-<a href="#" >
+<a href="http://goatfundedtrader.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -69,7 +69,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A webflow site for a blockchain security and advisory company. I led the end-to-end design and development in Webflow, creating a responsive, modern experience optimized for clarity, performance, and trust.</p>
 
-<a href="#" >
+<a href="https://goatfundedfutures.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -96,7 +96,8 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean and professional fintech website built in Webflow from a Figma design, focused on clarity, responsiveness, and smooth interactions.</p>
 
-<a href="#" >
+<a href="https://www.aquafunded.com/
+" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -123,7 +124,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A platform connecting Christian singles across Africa. I built the entire site in Webflow, turning their Figma design into a responsive experience with Memberstack integration.</p>
 
-<a href="#" >
+<a href="https://fundedhero.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -150,7 +151,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean, minimal, and immersive webflow site for Studio by Render, showcasing their bold product concepts and photorealistic 3D renders. Built to reflect their craft: simple, stunning, and intentional.</p>
 
-<a href="#" >
+<a href="http://kudofunded.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -178,7 +179,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A community for postpartum parents. I took the content, designed the site in Figma, and developed it in Webflow.</p>
 
-<a href="#" >
+<a href="https://quantumxfutures.com/home/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -205,7 +206,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
 
-<a href="#" >
+<a href="https://atsfunded.com/home" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -234,7 +235,8 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
 
-<a href="#" >
+<a href="https://www.phunk.co.uk/
+" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -260,7 +262,8 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
 
-<a href="#" >
+<a href="http://tradetechsolutions.io/
+" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -287,7 +290,8 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
 
-<a href="#" >
+<a href="http://lumio-branding.webflow.io/
+" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
@@ -313,7 +317,7 @@ function Section2(){
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
 
-<a href="#" >
+<a href="https://wagerfunding.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
                 </div>
