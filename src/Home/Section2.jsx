@@ -5,6 +5,10 @@ import proj4 from "../assets/project1 (4).png";
 import proj5 from "../assets/project1 (5).png";
 import proj6 from "../assets/project1 (6).png";
 import proj7 from "../assets/project1 (7).png";
+import proj8 from "../assets/project1 (8).png";
+import proj9 from "../assets/project1 (9).png";
+import proj10 from "../assets/project1 (10).png";
+import proj11 from "../assets/project1 (11).png";
 import arrow2 from "../assets/arrow2.png";
 
 function Section2(){
@@ -26,7 +30,7 @@ function Section2(){
             <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Xio</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Goat Funded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Build</p>
@@ -50,7 +54,7 @@ function Section2(){
 
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Bech 32</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Goat Funded Futures</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -76,7 +80,7 @@ function Section2(){
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Payment Haus</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Aqua Funded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -102,7 +106,7 @@ function Section2(){
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Olim Singles Hub</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Funded Hero</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -128,7 +132,7 @@ function Section2(){
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Studio By Render</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Kudo Fuded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -153,7 +157,7 @@ function Section2(){
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Run Tell Mom</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Quantum Futures</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -179,7 +183,7 @@ function Section2(){
                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Stay Vera</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Ats Funded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
@@ -199,6 +203,117 @@ function Section2(){
                 </div>
 
             </div>
+
+
+
+
+
+
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+
+                <div className="">
+<h1 className="text-[1.75rem] proj-title text-white">Phunk</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+</div>
+
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+
+<a href="#" >
+        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+                </div>
+
+                <div>
+                    <img src={proj8} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                </div>
+
+            </div>
+
+
+
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+
+                <div className="">
+<h1 className="text-[1.75rem] proj-title text-white">Trade Tech Solutions</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+</div>
+
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+
+<a href="#" >
+        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+                </div>
+
+                <div>
+                    <img src={proj9} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                </div>
+
+            </div>
+
+
+
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+
+                <div className="">
+<h1 className="text-[1.75rem] proj-title text-white">Lumio - Branding</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+</div>
+
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+
+<a href="#" >
+        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+                </div>
+
+                <div>
+                    <img src={proj10} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                </div>
+
+            </div>
+
+
+
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl">
+
+                <div className="">
+<h1 className="text-[1.75rem] proj-title text-white">Wager Funding</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+</div>
+
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+
+<a href="#" >
+        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+                </div>
+
+                <div>
+                    <img src={proj11} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                </div>
+
+            </div>
+
+
+
+              
 
 
             
