@@ -17,7 +17,7 @@ function Section6(){
 <div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
 
            <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
-            <h1 className="tools-des text-[1.5rem]">Ajide Victor</h1>
+            <h1 className="tools-des text-[1.5rem]">Udeh Precious</h1>
             <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
             </div> 
 
@@ -73,7 +73,7 @@ function Section6(){
 
                 <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 mt-7 md:mt-11">
                     <div className="flex justify-center">
-                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Ajide Victor</p>
+                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
                     </div>
 
                     <div className="flex gap-3 items-center justify-center">

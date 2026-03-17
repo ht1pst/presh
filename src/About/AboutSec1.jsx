@@ -298,7 +298,7 @@ initial={{ y: 50, opacity: 0 }}
 <div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
 
            <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
-            <h1 className="tools-des text-[1.5rem]">Ajide Victor</h1>
+            <h1 className="tools-des text-[1.5rem]">Udeh Precious</h1>
             <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
             </div> 
 
@@ -310,22 +310,21 @@ initial={{ y: 50, opacity: 0 }}
             <div className="leading-[100px] lg:hidden block pt-6 z-20 relative md:hidden">
 
 <SplitText
-            text="ready to level"
-            className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-            delay={150}
-            duration={0.2}
-            splitType="chars"
-            from={{ opacity: 0, y: 40 }}
-            to={{ opacity: 1, y: 0 }}
-          />
-
+  text="ready to level"
+  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
+  delay={40}
+  duration={0.2}
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+/>
 
 
 
 <SplitText
   text="up your"
  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={200}
+  delay={100}
   duration={0.2}
   splitType="chars"
   from={{ opacity: 0, y: 40 }}
@@ -337,7 +336,7 @@ initial={{ y: 50, opacity: 0 }}
 <SplitText
   text="website"
  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={340}
+  delay={140}
   duration={0.2}
   splitType="chars"
   from={{ opacity: 0, y: 40 }}
@@ -355,7 +354,7 @@ initial={{ y: 50, opacity: 0 }}
 
                 <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 mt-7 md:mt-11">
                     <div className="flex justify-center">
-                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Ajide Victor</p>
+                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
                     </div>
 
                     <div className="flex gap-3 items-center justify-center">

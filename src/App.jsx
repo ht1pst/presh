@@ -7,13 +7,15 @@ import AboutSec1 from './About/AboutSec1'
 import Section5 from './Home/Section5'
 import Section6 from './Home/Section6'
 import Contact from './Contact/Contact'
+import Projects from './Project/Projects'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import ScrollToTop from "./ScrollToTop";
 function App() {
  
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -37,6 +39,13 @@ function App() {
           <Route
           path="/contact"
           element={<Contact/>}
+        />
+
+
+        
+          <Route
+          path="/projects"
+          element={<Projects/>}
         />
 
 
