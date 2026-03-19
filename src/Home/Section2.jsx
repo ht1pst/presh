@@ -1,14 +1,6 @@
 import proj1 from "../assets/project1 (1).png";
 import proj2 from "../assets/project1 (2).png";
 import proj3 from "../assets/project1 (3).png";
-import proj4 from "../assets/project1 (4).png";
-import proj5 from "../assets/project1 (5).png";
-import proj6 from "../assets/project1 (6).png";
-import proj7 from "../assets/project1 (7).png";
-import proj8 from "../assets/project1 (8).png";
-import proj9 from "../assets/project1 (9).png";
-import proj10 from "../assets/project1 (10).png";
-import proj11 from "../assets/project1 (11).png";
 import arrow2 from "../assets/arrow2.png";
 import SplitText from "../SplitText";
 import { Link } from "react-router-dom";
@@ -140,21 +132,15 @@ function Section2(){
 
 <div className="flex justify-center mt-5">
 <Link to="/projects">
-        <button className="flex border w-35 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white">View All<span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+        <button className="flex border w-35 lg:w-50 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white">View All<span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </Link>
 </div>
 
 
 
-              
-
-
-            
+               
         </div>
 
-        <a href="#" className="hidden lg:block mt-8">
-        <button className="flex border w-58 justify-center mx-auto rounded-full h-13 items-center gap-2 text-[1.1rem] text-white">What Our Clients Say <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
-    </a>
        </section>
     )
 }

@@ -4,6 +4,7 @@ import img from "../assets/img2.jpeg";
 import img2 from "../assets/whiteimg.avif";
 import call from "../assets/call.webp";
 import arrow from "../assets/arrow.webp";
+import video from "../assets/video.mp4";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SplitText from "../SplitText";
@@ -170,6 +171,10 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 
             </motion.div>
+
+
+
+
 
         </section>
     )
