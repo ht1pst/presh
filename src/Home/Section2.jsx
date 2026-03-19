@@ -96,38 +96,7 @@ function Section2(){
             </motion.div>
 </a>
 
-<a href="https://www.aquafunded.com/
-">
-               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl mt-8"
-               initial={{ y: 50, opacity: 0 }}
-  whileInView={{ y: 0, opacity: 1 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-               >
-
-                <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Aqua Funded</h1>
-
-<div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Interaction</p>
-</div>
-
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean and professional fintech website built in Webflow from a Figma design, focused on clarity, responsiveness, and smooth interactions.</p>
-
-<a href="https://www.aquafunded.com/
-" >
-        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
-    </a>
-                </div>
-
-                <div>
-                    <img src={proj3} alt="" className="rounded-xl lg:w-190 lg:h-70" />
-                </div>
-
-            </motion.div>
-</a>
+cd
 
 
 <div className="flex justify-center mt-5">
