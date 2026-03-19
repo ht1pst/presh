@@ -19,7 +19,7 @@ function Testimony(){
         <div>
           <p className="lg:text-[1rem] text-[1.1rem] md:text-[1.25rem] leading-[18px] md:leading-[25px]  heading-p text-gray-300">Client Testimonial</p>
 
-          <h2 className="text-3xl leading-[80px] heading-hero lg:text-[7rem] uppercase text-[5.2rem] mt-3">
+          <h2 className="text-3xl leading-[80px]  heading-hero lg:text-[7rem] uppercase text-[4.8rem] mt-3">
             Real results. Real feedback.
           </h2>
 
@@ -30,7 +30,7 @@ function Testimony(){
 
           <div className="mt-5">
           <Link to="/projects">
-                  <button className="flex border w-57 lg:w-70 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] text-[1rem] text-white">View More Testimonials<span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+                  <button className="flex border w-60 lg:w-70 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] text-[1rem] text-white">View More Testimonials<span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
               </Link>
           </div>
         </div>
