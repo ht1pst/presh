@@ -96,7 +96,7 @@ function Section2(){
             </motion.div>
 </a>
 
-cd
+
 
 
 <div className="flex justify-center mt-5">
