@@ -3,7 +3,7 @@ import right from "../assets/right.avif";
 import left from "../assets/left.avif";
 import SplitText from "../SplitText";
 import { motion } from "framer-motion";
-function Section6(){
+function Footer2(){
     return(
         <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
             <motion.div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto"
@@ -108,4 +108,4 @@ function Section6(){
         </section>
     )
 }
-export default Section6
+export default Footer2

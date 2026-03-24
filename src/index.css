@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+*{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Porlane";
   src: url("/src/assets/fonts/porlane.ttf") format("truetype");

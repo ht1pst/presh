@@ -24,73 +24,72 @@ function Contact(){
       Available to take on new Webflow projects! Let’s talk
     </a>
   </div>
-       <header className="flex  justify-between lg:px-[95px] px-[20px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
-
-
-<div className="" >
-  <div className="">
-    <a href="#" className="flex items-start lg:text-[1.5rem] text-[1.1rem] text-white name">
-      Precious Triumph <span className="text-[0.5rem]">TM</span>
-    </a>
-  </div>
-  </div>
-
-  <div className="w-105 lg:block hidden">
-    <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
-      <span>
-        <img src={but} alt="" className="w-[21px]" />
-      </span>
-      Available to take on new projects! Let’s chat
-    </a>
-  </div>
-
-  {/* Menu Button */}
-  <div>
-    <button
-      onClick={() => setMenuOpen(!menuOpen)}
-      className="flex items-center text-white gap-2 menu"
-    >
-      Menu
-      <img src={menu} alt="" className="w-[28px]" />
-    </button>
-  </div>
-
-  {/* Dropdown */}
-
-
- <div
-  className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
-  transition-all duration-300 ease-in-out
-  ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
-`}
->
-
-  <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
-    <div> <Link to="/">HOME</Link></div>
-
-   <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-
-
-    <div><Link to="/about">ABOUT ME</Link></div>
-
-   <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-
-    <div> <Link to="/about">TESTIMONIAL</Link></div>
-
-    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-
-    
-    <div><Link to="/contact">CONTACT</Link></div>
-    
-    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-
-  </div>
-
-
-
-</div>
-</header>
-
+          <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
+   
+   
+   <div className="" >
+     <div className="">
+       <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
+       Precious Triumph<span className="text-[0.5rem]">TM</span>
+       </a>
+     </div>
+     </div>
+   
+     <div className="w-105 lg:block hidden">
+       <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
+         <span>
+           <img src={but} alt="" className="w-[21px]" />
+         </span>
+         Available to take on new projects! Let’s chat
+       </a>
+     </div>
+   
+     {/* Menu Button */}
+     <div>
+       <button
+         onClick={() => setMenuOpen(!menuOpen)}
+         className="flex items-center text-white gap-2 menu"
+       >
+         Menu
+         <img src={menu} alt="" className="w-[28px]" />
+       </button>
+     </div>
+   
+     {/* Dropdown */}
+   
+   
+    <div
+     className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
+     transition-all duration-300 ease-in-out
+     ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
+   `}
+   >
+   
+     <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
+       <div> <Link to="/">HOME</Link></div>
+   
+      <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+   
+   
+       <div><Link to="/about">ABOUT ME</Link></div>
+   
+      <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+   
+       <div> <a href="#testimony">TESTIMONIAL</a></div>
+   
+       <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+   
+       
+       <div><a href="https://calendly.com/triumphbusiness08/30min">CONTACT</a></div>
+       
+       <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+   
+     </div>
+   
+   
+   
+   </div>
+   </header>
 
  <div className="lg:px-[90px]  px-[20px] lg:pt-15">
 <h2 className="heading-hero text-white lg:text-[7rem] text-[6rem] flex lg:justify-center uppercase " >Get in touch</h2>

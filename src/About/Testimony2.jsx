@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import arrow2 from "../assets/arrow2.png";
 import video from "../assets/video.mp4";
-function Testimony(){
+function Testimony2(){
     return(
-        <section className="w-full py-20 bg-[#292929] px-[20px] text-white" id="testimony">
+        <section className="w-full  bg-[#292929] px-[20px] text-white" id="testimony2">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
 
        
@@ -35,4 +35,4 @@ function Testimony(){
     </section>
     )
 }
-export default Testimony
+export default Testimony2

@@ -2,6 +2,9 @@ import framer from "../assets/framer.png";
 import figma from "../assets/figma.png";
 import webflow from "../assets/webflow.avif";
 import support from "../assets/support.avif";
+import code from "../assets/code.png";
+import email from "../assets/email.png";
+import app from "../assets/app.png";
 import SplitText from "../SplitText";
 import { motion } from "framer-motion";
 function Section3(){
@@ -32,29 +35,29 @@ function Section3(){
 
                 <div className="p-[15px] lg:w-170 bg-[#353535] rounded-xl text-white  justify-center    lg:sticky lg:top-0   lg:pt-20">
                     <div className="bg-white w-15 h-15 flex items-center rounded-lg ">
-<img src={figma} alt="" className="mx-auto flex w-[23px] items-center" />
+<img src={code} alt="" className="mx-auto flex w-[28px] items-center" />
 </div>
-<h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">UX/UI Design</h1>
-<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">User Experience Design and User Interface Design are some of the most important skill-sets that help make an app or web-app stand out from the crowd. I ensure your designs are intuitive, compelling, and memorable makes all the difference</p>
+<h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">Website Development</h1>
+<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">I build fast, scalable, and conversion-focused websites — from scratch using clean, custom code or through platforms like WordPress and Webflow when it makes managing content easier for the client. Either way, you get responsive design, solid structure, and a site that works for your business.</p>
                 </div>
 
 
                  <div className="p-[15px] lg:w-170 bg-[#353535] rounded-xl text-white  justify-center    lg:sticky lg:top-0   lg:pt-20">
                     <div className="bg-white w-15 h-15 flex items-center rounded-lg ">
-<img src={webflow} alt="" className="mx-auto flex w-[23px] items-center" />
+<img src={app} alt="" className="mx-auto flex w-[28px] items-center" />
 </div>
 <h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">
-Website Development (WEBFLOW)</h1>
-<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">I design and build fast, scalable, and conversion-focused websites using Webflow. From Figma to live site, I ensure clean structure, responsive design, and easy updates, so your website not only looks great but works for your business.</p>
+App Development</h1>
+<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">I build functional, user-friendly web and mobile applications tailored to your business needs. From idea to deployment, every app is built with performance, scalability, and real users in mind.</p>
                 </div>
 
 
                  <div className="p-[15px] lg:w-170 bg-[#353535] rounded-xl text-white  justify-center    lg:sticky lg:top-0   lg:pt-20">
                     <div className="bg-white w-15 h-15 flex items-center rounded-lg ">
-<img src={framer} alt="" className="mx-auto flex w-[200px] items-center object-cover" />
+<img src={email} alt="" className="mx-auto flex w-[28px] items-center object-cover" />
 </div>
-<h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">Website Development (FRAMER)</h1>
-<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">I create interactive, visually stunning websites with Framer, perfect for startups and brands that want bold design, smooth animations, and flexibility. With Framer, I bring ideas to life quickly, blending creativity with performance.</p>
+<h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">Email Automation</h1>
+<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">I set up smart email workflows that engage your audience and drive action — from welcome sequences to abandoned cart flows — so your business keeps running even when you're not.</p>
                 </div>
 
 
@@ -63,7 +66,7 @@ Website Development (WEBFLOW)</h1>
 <img src={support} alt="" className="mx-auto flex w-[23px] items-center" />
 </div>
 <h1 className="tools lg:text-[1.75rem] text-[1.25rem] pt-2 font-bold">Ongoing Support</h1>
-<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">Ongoing support for your web app, including regular updates, bug fixes, performance optimization, and ongoing improvements. Ensuring your app remains secure, scalable, and up-to-date with the latest features.</p>
+<p className="tools-des text-[1rem] lg:text-[1.125rem] md:text-[1.125rem] pt-3 lg:pt-8 md:pt-10 leading-[20px] ">Websites and apps need care after launch. I offer reliable maintenance, updates, and technical support so you can focus on your business without worrying about what's happening under the hood.</p>
                 </div>
 
 

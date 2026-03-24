@@ -71,12 +71,12 @@ const [menuOpen, setMenuOpen] = useState(false);
 
    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 
-    <div> <Link to="/about">TESTIMONIAL</Link></div>
+    <div> <a href="#testimony">TESTIMONIAL</a></div>
 
     <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 
     
-    <div><Link to="/contact">CONTACT</Link></div>
+    <div><a href="https://calendly.com/triumphbusiness08/30min">CONTACT</a></div>
     
     <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 
@@ -97,7 +97,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 <div className=" leading-[55px] md:leading-[140px] block lg:hidden">
 
  <SplitText
-  text="Your Webflow Design &"
+  text="Your Web Development "
   className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase"
   delay={40}
   duration={0.2}
@@ -107,8 +107,8 @@ const [menuOpen, setMenuOpen] = useState(false);
 />
 
 <SplitText
-  text="Development Partner"
-  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase"
+  text="Partner"
+  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase mt-3"
   delay={100}
   duration={0.2}
   splitType="chars"
@@ -146,14 +146,14 @@ const [menuOpen, setMenuOpen] = useState(false);
 
                     
                     <div className="bg-white lg:w-170 h-auto pb-5 rounded-2xl  p-[15px] mt-5">
-                        <p className="lg:text-[1.25rem] text-[1.1rem] md:text-[1.25rem] leading-[18px] md:leading-[25px]  heading-p">A trusted B2B Webflow partner for professional services firms and SaaS companies ready to turn their websites into revenue-driving assets. Trusted by Reanest, Stayvera, Bech32, and Xio to deliver strategic B2B Websites.</p>
+                        <p className="lg:text-[1.25rem] text-[1.1rem] md:text-[1.25rem] leading-[18px] md:leading-[25px]  heading-p">A trusted developer for businesses and startups ready to turn their ideas into revenue-driving assets. Trusted by prop firms, SaaS companies, consulting agencies, and healthcare specialists worldwide - delivering high-performance websites, web apps, and mobile applications built to convert.</p>
 
                         <img src={img2} alt="" className="w-100 md:w-full md:h-50" />
 
 <div className="flex flex-col lg:flex-row md:flex-row md:justify-center gap-5">
 
     <div>
-        <a href="#">
+        <a href="https://calendly.com/triumphbusiness08/30min">
         <button className="flex border lg:w-55 w-full md:px-3 justify-center rounded-full h-13 items-center gap-2 lg:text-[1.1rem] md:text-[1.1rem] text-[0.9rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
     </a>
     </div>

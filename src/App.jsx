@@ -9,6 +9,8 @@ import Section6 from './Home/Section6'
 import Contact from './Contact/Contact'
 import Projects from './Project/Projects'
 import Testimony from './Home/Testimony'
+import Testimony2 from './About/Testimony2'
+import Footer2 from './About/Footer2'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 function App() {
@@ -26,7 +28,7 @@ function App() {
               <Section2 />
               <Testimony/>
               <Section3 />
-              <Section4 />
+              
               <Section5 />
               <Section6 />
             </>
@@ -35,7 +37,13 @@ function App() {
 
         <Route
           path="/about"
-          element={<AboutSec1 />}
+          element={
+          <>
+          <AboutSec1 />
+          <Testimony2/>
+          <Footer2/>
+</>
+          }
         />
 
           <Route

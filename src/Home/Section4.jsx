@@ -12,8 +12,8 @@ function Section4(){
     <div className="max-w-350 mx-auto" >
 
 <SplitText
-  text="helped 20+ companies design, ship, and raise."
-  className="uppercase text-white heading-hero lg:text-[5rem] text-[4rem] lg:leading-0 leading-[80px] "
+  text="helped 30+ companies & 80+ businesses develop, ship, and raise."
+  className="uppercase text-white heading-hero lg:text-[5rem] text-[3.8rem] lg:leading-0 leading-[60px] "
   delay={40}
   duration={0.2}
   splitType="chars"

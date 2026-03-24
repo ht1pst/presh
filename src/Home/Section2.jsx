@@ -42,12 +42,13 @@ function Section2(){
              >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Goat Funded</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Goat Funded Trader</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Cryptocurrency</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">AI</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Propfirms</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">An AI‑powered trading platform. Designed in Figma, I developed the site in Webflow with smooth animations and structure to match the product’s innovation.</p>
@@ -78,8 +79,10 @@ function Section2(){
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Swiper Js</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Futures</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Prop Firm</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Javascript</p>
+      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Animation</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A webflow site for a blockchain security and advisory company. I led the end-to-end design and development in Webflow, creating a responsive, modern experience optimized for clarity, performance, and trust.</p>

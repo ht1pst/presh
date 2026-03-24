@@ -33,72 +33,72 @@ function Projects(){
         Available to take on new Webflow projects! Let’s talk
       </a>
     </div>
-         <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
-  
-  
-  <div className="" >
-    <div className="">
-      <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
-      Precious Triumph<span className="text-[0.5rem]">TM</span>
-      </a>
-    </div>
-    </div>
-  
-    <div className="w-105 lg:block hidden">
-      <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
-        <span>
-          <img src={but} alt="" className="w-[21px]" />
-        </span>
-        Available to take on new projects! Let’s chat
-      </a>
-    </div>
-  
-    {/* Menu Button */}
-    <div>
-      <button
-        onClick={() => setMenuOpen(!menuOpen)}
-        className="flex items-center text-white gap-2 menu"
-      >
-        Menu
-        <img src={menu} alt="" className="w-[28px]" />
-      </button>
-    </div>
-  
-    {/* Dropdown */}
-  
-  
-   <div
-    className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
-    transition-all duration-300 ease-in-out
-    ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
-  `}
-  >
-  
-    <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
-      <div> <Link to="/">HOME</Link></div>
-  
-     <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-  
-  
-      <div><Link to="/about">ABOUT ME</Link></div>
-  
-     <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-  
-      <div> <Link to="/about">TESTIMONIAL</Link></div>
-  
-      <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-  
-      
-      <div><Link to="/contact">CONTACT</Link></div>
-      
-      <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-  
-    </div>
-  
-  
-  
-  </div>
-  </header>
+              <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
+       
+       
+       <div className="" >
+         <div className="">
+           <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
+           Precious Triumph<span className="text-[0.5rem]">TM</span>
+           </a>
+         </div>
+         </div>
+       
+         <div className="w-105 lg:block hidden">
+           <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
+             <span>
+               <img src={but} alt="" className="w-[21px]" />
+             </span>
+             Available to take on new projects! Let’s chat
+           </a>
+         </div>
+       
+         {/* Menu Button */}
+         <div>
+           <button
+             onClick={() => setMenuOpen(!menuOpen)}
+             className="flex items-center text-white gap-2 menu"
+           >
+             Menu
+             <img src={menu} alt="" className="w-[28px]" />
+           </button>
+         </div>
+       
+         {/* Dropdown */}
+       
+       
+        <div
+         className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
+         transition-all duration-300 ease-in-out
+         ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
+       `}
+       >
+       
+         <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
+           <div> <Link to="/">HOME</Link></div>
+       
+          <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+       
+       
+           <div><Link to="/about">ABOUT ME</Link></div>
+       
+          <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+       
+           <div> <a href="#testimony">TESTIMONIAL</a></div>
+       
+           <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+       
+           
+           <div><a href="https://calendly.com/triumphbusiness08/30min">CONTACT</a></div>
+           
+           <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+       
+         </div>
+       
+       
+       
+       </div>
+       </header>
 
 
 <div className="lg:mt-10 px-[20px]">
@@ -121,41 +121,42 @@ If you want to understand the thinking behind the work or you’re ready to crea
 </div>
 
 <div className="mt-10 lg:mt-10 flex flex-col gap-5 px-[20px]">
-           <a href="http://goatfundedtrader.com/">
-             <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
-             initial={{ y: 50, opacity: 0 }}
-  whileInView={{ y: 0, opacity: 1 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-             >
-
-                <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Goat Funded</h1>
-
-<div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Cryptocurrency</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">AI</p>
-</div>
-
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">An AI‑powered trading platform. Designed in Figma, I developed the site in Webflow with smooth animations and structure to match the product’s innovation.</p>
-
-<a href="http://goatfundedtrader.com/" >
-        <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
-    </a>
-                </div>
-
-                <div>
-                    <img src={proj1} alt="" className=" rounded-xl lg:w-220 lg:h-70" />
-                </div>
-
-            </motion.div>
-           </a>
+          <a href="http://goatfundedtrader.com/">
+                     <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+                     initial={{ y: 50, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                     >
+        
+                        <div className="">
+        <h1 className="text-[1.75rem] proj-title text-white">Goat Funded Trader</h1>
+        
+        <div className="proj-tools flex flex-wrap gap-2 mt-3">
+            <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
+            <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex</p>
+            <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Propfirms</p>
+             <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+        </div>
+        
+        <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">An AI‑powered trading platform. Designed in Figma, I developed the site in Webflow with smooth animations and structure to match the product’s innovation.</p>
+        
+        <a href="http://goatfundedtrader.com/" >
+                <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+            </a>
+                        </div>
+        
+                        <div>
+                            <img src={proj1} alt="" className=" rounded-xl lg:w-220 lg:h-70" />
+                        </div>
+        
+                    </motion.div>
+                   </a>
 
 
 <a href="https://goatfundedfutures.com/
 ">
-               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl"
+               <motion.div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 rounded border max-w-350 mx-auto border-[#616161] p-5 rounded-2xl mt-8"
                initial={{ y: 50, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}
   viewport={{ once: true, amount: 0.3 }}
@@ -166,8 +167,10 @@ If you want to understand the thinking behind the work or you’re ready to crea
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Swiper Js</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Futures</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Prop Firm</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Javascript</p>
+      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Animation</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A webflow site for a blockchain security and advisory company. I led the end-to-end design and development in Webflow, creating a responsive, modern experience optimized for clarity, performance, and trust.</p>
@@ -194,12 +197,14 @@ If you want to understand the thinking behind the work or you’re ready to crea
                >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Aqua Funded</h1>
+<h1 className="text-[1.75rem] proj-title text-white">AquaFunded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Interaction</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">PHP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WooCommerce</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Membership</p>
+      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Subscription</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean and professional fintech website built in Webflow from a Figma design, focused on clarity, responsiveness, and smooth interactions.</p>
@@ -226,12 +231,13 @@ If you want to understand the thinking behind the work or you’re ready to crea
                >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Funded Hero</h1>
+<h1 className="text-[1.75rem] proj-title text-white">FundedHero</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Memberstack</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Membership</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Oxygen Builder</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WooCommerce</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A platform connecting Christian singles across Africa. I built the entire site in Webflow, turning their Figma design into a responsive experience with Memberstack integration.</p>
@@ -258,12 +264,16 @@ If you want to understand the thinking behind the work or you’re ready to crea
                >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Kudo Fuded</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Kudo Funded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Animation</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">3d designs</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Oxygen Builde</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> WooCommerce</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> JavaScrip</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> PHP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean, minimal, and immersive webflow site for Studio by Render, showcasing their bold product concepts and photorealistic 3D renders. Built to reflect their craft: simple, stunning, and intentional.</p>
@@ -290,13 +300,17 @@ If you want to understand the thinking behind the work or you’re ready to crea
                >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Quantum Futures</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Quantum Futures.</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress Build</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Oxygen Builder
 </p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Reponsive deisgn</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">PHP</p>
+      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
+       <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> WooCommerce</p>
+        <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A community for postpartum parents. I took the content, designed the site in Figma, and developed it in Webflow.</p>
@@ -323,12 +337,16 @@ If you want to understand the thinking behind the work or you’re ready to crea
                >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Ats Funded</h1>
+<h1 className="text-[1.75rem] proj-title text-white">ATS Funded</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Oxygen Builder</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">PHP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WooCommerce</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Prop Firm</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
@@ -357,12 +375,13 @@ If you want to understand the thinking behind the work or you’re ready to crea
                 >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Phunk</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Phunk.</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Animations</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
@@ -389,12 +408,12 @@ If you want to understand the thinking behind the work or you’re ready to crea
                 >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Trade Tech Solutions</h1>
+<h1 className="text-[1.75rem] proj-title text-white">TradeTechSolutions.</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow. Animations</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
@@ -422,12 +441,12 @@ If you want to understand the thinking behind the work or you’re ready to crea
                 >
 
                 <div className="">
-<h1 className="text-[1.75rem] proj-title text-white">Lumio - Branding</h1>
+<h1 className="text-[1.75rem] proj-title text-white">Lumio Branding</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Interactive Animations</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
@@ -457,9 +476,12 @@ If you want to understand the thinking behind the work or you’re ready to crea
 <h1 className="text-[1.75rem] proj-title text-white">Wager Funding</h1>
 
 <div className="proj-tools flex flex-wrap gap-2 mt-3">
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Webflow Build</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Figma design</p>
-    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">GSAP</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">WordPress</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">eCommerce</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Oxygen Builder</p>
+     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">PHP</p>
+       <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> CSS</p>
 </div>
 
 <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
@@ -478,7 +500,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
 </div>
 
 
-     <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5 mt-10">
+        <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
             <motion.div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto"
              initial={{ y: 50, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}
@@ -490,7 +512,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
 <div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
 
            <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
-            <h1 className="tools-des text-[1.5rem]">Udeh Precious</h1>
+            <h1 className="tools-des text-[1.5rem]">Precious Triumph</h1>
             <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
             </div> 
 
@@ -539,7 +561,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
             </div>
 
             <div className="flex justify-center md:mt-10">
-                    <a href="#">
+                    <a href="https://calendly.com/triumphbusiness08/30min">
                     <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
                 </a>
                 </div>
@@ -552,13 +574,13 @@ If you want to understand the thinking behind the work or you’re ready to crea
                     <div className="flex gap-3 items-center justify-center">
 
                           <div>
-                    <a href="#">
+                    <a href="x.com/@precious_PY">
                     <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">X(TWITTER)</button>
                 </a>
                 </div>
 
                     <div>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/precious-triumph-a9472622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                     <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">LINKEDIN</button>
                 </a>
                 </div>

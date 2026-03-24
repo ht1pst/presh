@@ -11,27 +11,27 @@ function Section5() {
 
   const faqs = [
     {
-      question: "Do you do Web Design or Development only?",
+      question: "How long does a typical project take?",
       answer:
-        "Yes, I do both. I usually work on projects from design to webflow and framer development, however if you only require web design or development, I'm available for both.",
+        "It depends on the scope. A simple landing page can take 3–5 days, while a full business website or web app typically takes 2–6 weeks. I always give a clear timeline before we start.",
     },
     {
-      question: "Will I get a responsive website?",
-      answer: "Yes, the website will be responsive across all devices.",
+      question: "Do you build from scratch or use templates?",
+      answer: "Every project is custom built and tailored specifically to you — no recycled templates, no generic layouts. The goal is always to make you stand out from your competitors. I choose the right tools and tech stack (custom code, WordPress, or Webflow) based on your needs, but the design and build is always uniquely yours.",
     },
     {
-      question: "How much does a website design and development cost?",
+      question: "Will I be able to update my website after it's done?",
       answer:
-        "It is determined by the complexity of the project as well as other requirements, such as animations, CMS collections, custom code, and so on.",
+        "Yes. I build with handover in mind — you'll get a walkthrough and documentation so you can make basic updates yourself. For bigger changes, my ongoing support service has you covered.",
     },
     {
-      question: "Do I need a Webflow/Framer Account?",
+      question: "What information do I need to provide to get started?",
       answer:
-        "Yes! But you don't need to purchase an account plan. I will develop the site on my account then transfer the project over to you.",
+        "Just a general idea of what you need, your target audience, any reference sites you like, and your budget range. We'll figure out the rest together.",
     },
     {
-      question: "Are you available 24/7?",
-      answer: "Yes, I am open for work.",
+      question: "Do you offer post-launch support?",
+      answer: "Yes. I offer maintenance and support packages to keep your site or app running smoothly after launch.",
     },
   ];
 
@@ -96,7 +96,7 @@ function Section5() {
 
                 <div
                   className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                    isActive ? "max-h-40 lg:py-3 py-4" : "max-h-0"
+                    isActive ? "h-auto pb-[10px] lg:py-3 py-4" : "max-h-0"
                   }`}
                 >
                   <p className="px-6 tools-des lg:text-[1.2rem] text-[1rem] text-white">
@@ -109,7 +109,7 @@ function Section5() {
 
         </div>
       </motion.div>
-  <a href="#" className="lg:hidden block mt-5">
+  <a href="https://calendly.com/triumphbusiness08/30min" className="lg:hidden block mt-5">
           <button className="flex border mx-auto w-[230px] justify-center rounded-full h-[52px] items-center gap-2 text-[1.1rem] text-white">
             Book a strategy call
             <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7">
