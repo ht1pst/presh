@@ -55,7 +55,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 
  <div
-  className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
+  className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280    bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
   transition-all duration-300 ease-in-out
   ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
 `}
@@ -127,7 +127,7 @@ const [menuOpen, setMenuOpen] = useState(false);
                 <div className="">
 
  <SplitText
-  text="Your Webflow Design &"
+  text="Your Web Development"
   className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem] lg:block hidden text-white uppercase"
   delay={40}
   duration={0.2}
@@ -137,7 +137,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 />
 
 <SplitText
-  text="Development Partner"
+  text="Partner"
   className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem]  lg:block hidden text-white mt-3 uppercase"
   delay={100}
   duration={0.2}

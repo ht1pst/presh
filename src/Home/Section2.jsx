@@ -26,7 +26,7 @@ function Section2(){
           
 
 
- <a href="#" className="hidden lg:block">
+ <a href="#testimony" className="hidden lg:block">
         <button className="flex border w-58 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white">What Our Clients Say <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
         </div>

@@ -51,7 +51,7 @@ function Section5() {
   to={{ opacity: 1, y: 0 }}
 />
 
-        <a href="#" className="hidden lg:block">
+        <a href="https://calendly.com/triumphbusiness08/30min" className="hidden lg:block">
           <button className="flex border w-[230px] justify-center rounded-full h-[52px] items-center gap-2 text-[1.1rem] text-white">
             Book a strategy call
             <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7">
@@ -109,7 +109,7 @@ function Section5() {
 
         </div>
       </motion.div>
-  <a href="https://calendly.com/triumphbusiness08/30min" className="lg:hidden block mt-5">
+  <a href="https://calendly.com/triumphbusiness08/30min"className="lg:hidden block mt-5">
           <button className="flex border mx-auto w-[230px] justify-center rounded-full h-[52px] items-center gap-2 text-[1.1rem] text-white">
             Book a strategy call
             <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7">

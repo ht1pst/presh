@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 function Section6(){
     return(
         <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-30 pt-5">
-            <motion.div className="relative h-[77vh] py-[10px] flex flex-col items-center justify-between   rounded-2xl bg-white px-[20px] max-w-350 mx-auto"
+            <motion.div className="relative h-[77vh] lg:h-auto py-[10px] flex flex-col  justify-between    rounded-2xl bg-white px-[20px] max-w-350 mx-auto"
              initial={{ y: 50, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}
   viewport={{ once: true, amount: 0.3 }}
   transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
 
-<div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-117 w-90  h-auto object-cover" /></div>
-<div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
+<div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-110 w-90  h-auto object-cover" /></div>
+<div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-104 w-18 md:w-70 h-auto object-cover" /></div>
 
            <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
             <h1 className="tools-des lg:text-[1.5rem] text-[1.2rem] tracking-[-1px]">Precious Triumph</h1>
@@ -39,7 +39,7 @@ function Section6(){
 />
 
 
-<h2 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center flex flex-wrap gap-2 justify-center px-[5%]  leading-[80px]">
+<h2 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center flex flex-wrap gap-2 justify-center px-[5%]  leading-[80px] lg:hidden block">
     <span>
 <span>R</span>
 <span>E</span>
@@ -90,7 +90,7 @@ function Section6(){
 
 <div className="flex justify-center md:mt-10 mt-4 ">
                     <a href="https://calendly.com/triumphbusiness08/30min">
-                    <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
+                    <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.0rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
                 </a>
                 </div>
 
