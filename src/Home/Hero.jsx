@@ -99,7 +99,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 <div className=" leading-[55px] md:leading-[140px] block lg:hidden">
 
  <SplitText
-  text="your web & app development "
+  text="Your website and app "
   className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.2rem] text-white uppercase"
   delay={40}
   duration={0.2}
@@ -109,7 +109,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 />
 
 <SplitText
-  text="Partner"
+  text="development Partner"
   className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.5rem] text-white uppercase mt-3"
   delay={100}
   duration={0.2}
@@ -127,7 +127,7 @@ const [menuOpen, setMenuOpen] = useState(false);
                 <div className="">
 
  <SplitText
-  text="your web & app development"
+  text="Your website and app"
   className=" heading-hero leading-[150px] lg:text-[10.8rem]  text-[5rem] lg:block hidden text-white uppercase"
   delay={40}
   duration={0.2}
@@ -137,7 +137,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 />
 
 <SplitText
-  text="Partner"
+  text="development Partner"
   className=" heading-hero leading-[150px] lg:text-[11rem]  text-[5rem]  lg:block hidden text-white mt-3 uppercase"
   delay={100}
   duration={0.2}
