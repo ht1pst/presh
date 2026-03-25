@@ -67,6 +67,8 @@ const [menuOpen, setMenuOpen] = useState(false);
    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 
 
+ 
+
     <div><Link to="/about">ABOUT ME</Link></div>
 
    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
