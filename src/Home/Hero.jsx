@@ -73,7 +73,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
    <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 
-    <div> <a href="#testimony">TESTIMONIAL</a></div>
+    <div> <Link to="/projects">PORTFOLIO</Link></div>
 
     <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
 

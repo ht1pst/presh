@@ -33,72 +33,74 @@ function Projects(){
         Available to take on new Webflow projects! Let’s talk
       </a>
     </div>
-              <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
-       
-       
-       <div className="" >
-         <div className="">
-           <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
-           Precious Triumph<span className="text-[0.5rem]">TM</span>
-           </a>
-         </div>
-         </div>
-       
-         <div className="w-105 lg:block hidden">
-           <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
-             <span>
-               <img src={but} alt="" className="w-[21px]" />
-             </span>
-             Available to take on new projects! Let’s chat
-           </a>
-         </div>
-       
-         {/* Menu Button */}
-         <div>
-           <button
-             onClick={() => setMenuOpen(!menuOpen)}
-             className="flex items-center text-white gap-2 menu"
-           >
-             Menu
-             <img src={menu} alt="" className="w-[28px]" />
-           </button>
-         </div>
-       
-         {/* Dropdown */}
-       
-       
-        <div
-         className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280   bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
-         transition-all duration-300 ease-in-out
-         ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
-       `}
-       >
-       
-         <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
-           <div> <Link to="/">HOME</Link></div>
-       
-          <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-       
-       
-           <div><Link to="/about">ABOUT ME</Link></div>
-       
-          <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-       
-           <div> <a href="#testimony">TESTIMONIAL</a></div>
-       
-           <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-       
+            <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
+          
+          
+          <div className="" >
+            <div className="">
+              <a href="#" className="flex items-start lg:text-[1.5rem] md:text-[1.5rem] text-[1.1rem] text-white name">
+              Precious Triumph<span className="text-[0.5rem]">TM</span>
+              </a>
+            </div>
+            </div>
+          
+            <div className="w-105 lg:block hidden">
+              <a href="#" className="flex items-center h-10 rounded-lg justify-center gap-5 text-[1rem] bg-[#353535] text-white available">
+                <span>
+                  <img src={but} alt="" className="w-[21px]" />
+                </span>
+                Available to take on new projects! Let’s chat
+              </a>
+            </div>
+          
+            {/* Menu Button */}
+            <div>
+              <button
+                onClick={() => setMenuOpen(!menuOpen)}
+                className="flex items-center text-white gap-2 menu"
+              >
+                Menu
+                <img src={menu} alt="" className="w-[28px]" />
+              </button>
+            </div>
+          
+            {/* Dropdown */}
+          
+          
+           <div
+            className={`absolute lg:top-20 top-10 left-1/2 -translate-x-1/2 mt-4 w-full h-280    bg-[#292929] lg:rounded-xl rounded-3xl  flex flex-col gap-4 p-5 text-white z-50
+            transition-all duration-300 ease-in-out
+            ${menuOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-6 invisible"}
+          `}
+          >
+          
+            <div className="heading-hero h-auto p-5 lg:leading-[160px] leading-[100px] absolute rounded-2xl left-1/2 -translate-x-1/2 lg:text-[7.5rem] text-[5rem] bg-[#353535] text-white lg:w-[80%] w-[90%] px-[30px] ">
+              <div> <Link to="/">HOME</Link></div>
+          
+             <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+          
+          
            
-           <div><a href="https://calendly.com/triumphbusiness08/30min">CONTACT</a></div>
-           
-           <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
-       
-         </div>
-       
-       
-       
-       </div>
-       </header>
+          
+              <div><Link to="/about">ABOUT ME</Link></div>
+          
+             <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+          
+              <div> <Link to="/projects">PORTFOLIO</Link></div>
+          
+              <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+          
+              
+              <div><a href="https://calendly.com/triumphbusiness08/30min">CONTACT</a></div>
+              
+              <div className="border  border-l-0 border-r-0 border-[#5b595999] #5b595999"></div>
+          
+            </div>
+          
+          
+          
+          </div>
+          </header>
 
 
 <div className="lg:mt-10 px-[20px]">
@@ -501,18 +503,18 @@ If you want to understand the thinking behind the work or you’re ready to crea
 
 
         <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
-            <motion.div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto"
+          <motion.div className="relative h-[77vh] lg:h-auto py-[10px] flex flex-col  justify-between    rounded-2xl bg-white px-[20px] max-w-350 mx-auto"
              initial={{ y: 50, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}
   viewport={{ once: true, amount: 0.3 }}
   transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
 
-<div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-117 w-90  h-auto object-cover" /></div>
-<div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
+<div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-110 w-90  h-auto object-cover" /></div>
+<div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-104 w-18 md:w-70 h-auto object-cover" /></div>
 
            <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
-            <h1 className="tools-des text-[1.5rem]">Precious Triumph</h1>
+            <h1 className="tools-des lg:text-[1.5rem] text-[1.2rem] tracking-[-1px]">Precious Triumph</h1>
             <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
             </div> 
 
@@ -524,49 +526,79 @@ If you want to understand the thinking behind the work or you’re ready to crea
             <div className="leading-[100px] lg:hidden block pt-6 z-20 relative md:hidden">
 
 <SplitText
-  text="ready to level"
-  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={40}
-  duration={0.2}
-  splitType="chars"
+  text="ready to level up your website"
+   className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center px-[%] hidden "
+  delay={0.05}
+  duration={0.3}
+  splitType="words"   // 🔥 changed here
   from={{ opacity: 0, y: 40 }}
   to={{ opacity: 1, y: 0 }}
 />
 
 
-
-<SplitText
-  text="up your"
- className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={100}
-  duration={0.2}
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-/>
+<h2 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center flex flex-wrap gap-2 justify-center px-[5%]  leading-[80px] lg:hidden block">
+    <span>
+<span>R</span>
+<span>E</span>
+<span>A</span>
+<span>D</span>
+<span>Y</span>
+    </span>
 
 
+     <span>
+<span>T</span>
+<span>O</span>
+     </span>
 
-<SplitText
-  text="website"
- className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={140}
-  duration={0.2}
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-/>
+
+      <span>
+        <span>L</span>
+        <span>E</span>
+        <span>V</span>
+        <span>E</span>
+        <span>L</span>
+      </span>
+
+       <span>
+        <span>U</span>
+        <span>P</span>
+       </span>
+
+
+        <span>
+            <span>Y</span>
+            <span>O</span>
+            <span>U</span>
+            <span>R</span>
+        </span>
+
+         <span>
+<span>W</span>
+<span>E</span>
+<span>B</span>
+<span>S</span>
+<span>I</span>
+<span>T</span>
+<span>E</span>
+<span>?</span>
+         </span>
+</h2>
+
+<div className="flex justify-center md:mt-10 mt-4 ">
+                    <a href="https://calendly.com/triumphbusiness08/30min">
+                    <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.0rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
+                </a>
+                </div>
+
+
+
 
 
             </div>
 
-            <div className="flex justify-center md:mt-10">
-                    <a href="https://calendly.com/triumphbusiness08/30min">
-                    <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
-                </a>
-                </div>
-
-                <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 mt-7 md:mt-11">
+            
+                <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25  md:mt-11">
                     <div className="flex justify-center">
                         <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
                     </div>
@@ -575,26 +607,26 @@ If you want to understand the thinking behind the work or you’re ready to crea
 
                           <div>
                     <a href="x.com/@precious_PY">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">X(TWITTER)</button>
+                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">X(TWITTER)</button>
                 </a>
                 </div>
 
                     <div>
                     <a href="https://www.linkedin.com/in/precious-triumph-a9472622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">LINKEDIN</button>
+                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">LINKEDIN</button>
                 </a>
                 </div>
 
                     <div>
                     <a href="#">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">INSTAGRAM</button>
+                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">INSTAGRAM</button>
                 </a>
                 </div>
 
                 </div>
                      
         <div className="flex justify-center">
-            <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500 ">©2025 - All Rights Reserved</p>
+            <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500 ">©2026 - All Rights Reserved</p>
         </div>
                      
                 </div>
