@@ -141,7 +141,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
              <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
         </div>
         
-        <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">An AI‑powered trading platform. Designed in Figma, I developed the site in Webflow with smooth animations and structure to match the product’s innovation.</p>
+        <p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A forex prop firm platform designed to get traders funded quickly. Features multi-language support, affiliate and payout pages, and a seamless onboarding flow — catering to traders across multiple regions worldwide.</p>
         
         <a href="http://goatfundedtrader.com/" >
                 <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -175,7 +175,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
       <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Animation</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A webflow site for a blockchain security and advisory company. I led the end-to-end design and development in Webflow, creating a responsive, modern experience optimized for clarity, performance, and trust.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A futures prop firm platform that funds traders with up to $750K in capital. The site handles challenge plan purchases, affiliate programmes, payout tracking, and trader onboarding — built for a fast-moving, competitive market.</p>
 
 <a href="https://goatfundedfutures.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -209,7 +209,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
       <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Subscription</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean and professional fintech website built in Webflow from a Figma design, focused on clarity, responsiveness, and smooth interactions.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A leading prop firm offering instant funding and up to 100% profit splits across forex, crypto, and futures markets. A feature-rich platform built to handle multiple trading verticals under one brand, with a clean, conversion-focused user experience.</p>
 
 <a href="https://www.aquafunded.com/
 " >
@@ -242,7 +242,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A platform connecting Christian singles across Africa. I built the entire site in Webflow, turning their Figma design into a responsive experience with Memberstack integration.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A forex and futures prop firm platform serving traders from 195+ countries. Built on WordPress, the site manages challenge plans, affiliate systems, and trader accounts — with a bold, high-converting design tailored for a competitive fintech audience.</p>
 
 <a href="https://fundedhero.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -278,7 +278,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A clean, minimal, and immersive webflow site for Studio by Render, showcasing their bold product concepts and photorealistic 3D renders. Built to reflect their craft: simple, stunning, and intentional.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A prop firm platform that funds traders with up to $200K in capital and up to 90% profit splits, with no time limits on evaluations. Multi-language support (English, French, Swedish) and a clean, trust-focused design built to convert serious traders.</p>
 
 <a href="http://kudofunded.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -315,7 +315,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
         <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Forex Prop Firm</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A community for postpartum parents. I took the content, designed the site in Figma, and developed it in Webflow.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A futures prop firm platform built to fund and evaluate traders at scale, with a modern, conversion-focused design.</p>
 
 <a href="https://quantumxfutures.com/home/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -351,7 +351,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Prop Firm</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A prop firm platform offering funded trading accounts, challenge plans, and trader onboarding — designed to get serious traders capital-ready fast.</p>
 
 <a href="https://atsfunded.com/home" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
@@ -386,7 +386,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
      <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A full-service UK-based web and graphic design agency offering web design, brand identity, and custom software development — built on Webflow with a clean, professional aesthetic.</p>
 
 <a href="https://www.phunk.co.uk/
 " >
@@ -418,7 +418,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">The leading prop firm tech provider, offering turnkey solutions to launch forex, futures, crypto, and sports prop firms. A high-converting B2B platform serving clients across the prop trading industry.</p>
 
 <a href="http://tradetechsolutions.io/
 " >
@@ -451,7 +451,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
     <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A branding and web agency helping businesses grow through standout design, clean development, and smart web solutions — built to impress and perform.</p>
 
 <a href="http://lumio-branding.webflow.io/
 " >
@@ -486,7 +486,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
        <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full"> CSS</p>
 </div>
 
-<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A stylish and modern stay experience for travelers. Built entirely in Webflow based on a Figma design, I focused on seamless mobile responsiveness and subtle transitions that enhance the brand’s calming and premium feel.</p>
+<p className="proj-det lg:text-[1.125rem] text-[1rem] text-white font-bold lg:w-[75%] leading-[23px] mt-10">A funded sports betting platform that lets bettors prove their skills through challenges and earn access to real bankrolls — a unique spin on the prop firm model applied to sports wagering.</p>
 
 <a href="https://wagerfunding.com/" >
         <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
