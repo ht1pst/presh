@@ -121,7 +121,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 </div>
                 <div>
-                    <img src={img} alt="" className="lg:w-150 w-full  h-100 md:h-200 lg:h-180 rounded-xl object-cover"   />
+                    <img src={img} alt="" className="lg:w-150 w-full  h-100 md:h-200 lg:h-186 rounded-xl object-cover"   />
                 </div>
 
                 <div className="">
