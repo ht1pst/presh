@@ -17,7 +17,7 @@ const [menuOpen, setMenuOpen] = useState(false);
              <div className="lg:hidden block mx-auto  w-70 md:w-130 pt-3 ">
     <a href="#" className="flex items-center h-8 md:h-10 rounded-lg justify-center  text-[0.6rem] md:text-[1rem] bg-[#353535] text-white available">
      
-      Available to take on new Webflow projects! Let’s talk
+      Available to take on new Webflow projects!Let’s talk
     </a>
   </div>
        <header className="flex  justify-between lg:px-[95px] px-[20px] md:px-[30px] items-center lg:h-20 h-13 relative max-w-380 mx-auto">
