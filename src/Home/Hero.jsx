@@ -100,7 +100,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
  <SplitText
   text="Your website and app "
-  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[1rem] text-white uppercase"
+  className="heading-hero lg:text-[11rem] md:text-[11rem] text-[4.2rem] text-white uppercase"
   delay={40}
   duration={0.2}
   splitType="chars"
